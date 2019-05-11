@@ -1,0 +1,77 @@
+/* Box-sizing-model */
+
+ *,
+ *:before,
+ *:after {
+	box-sizing: border-box;
+ }
+
+/* Responsive images */
+
+img {
+	max-width: 100%;
+	height: auto;
+ }
+
+/* Cursor change on hover on Buttons */
+
+input[type="submit"],
+button {
+	cursor: pointer;
+ }
+
+/* A better looking default horizontal rule */
+
+hr {
+	display: block;
+	height: 0.1em;
+	border: 0;
+	border-top: 0.1em solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+ }
+
+/* Allow only vertical resizing of textareas */
+
+ textarea {
+	resize: vertical;
+ }
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix {
+
+	&:before,
+	&:after {
+		content: " "; /* 1 */
+		display: table; /* 2 */
+	}
+
+	&:after {
+		clear: both;
+	}
+}
+
+/* Browser Upgrade Prompt */
+
+.browser-upgrade {
+	margin: 0.5em;
+	padding: 2em 1em;
+	background-color: #ed1f46;
+	color: #fff;
+
+	&__link {
+		color: #fff;
+		font-weight: 800;
+	}
+}
