@@ -9,7 +9,7 @@ a)	gulp build для сборки production версии проекта;
 b)	gulp dev для сборки development версии и ее запуска на локальном сервере.
 4.	Если все будет выполнено правильно, то:
 a)	на экране откроется страница со подобным сообщением:
-	https://viacheslavdemchenko.github.io/pattern-gulp-4+pug+sass
+	https://viacheslavdemchenko.github.io/pattern-gulp-4-pug-sass/
 b)	в консоле выведется Hellow!
 
 Структура production версии после сборки
